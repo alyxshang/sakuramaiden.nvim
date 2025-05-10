@@ -42,7 +42,7 @@ return {
     -- Setting the transparency setting.
     -- Can be set to "true" or "false".
 
-    require("jadewisdom").setup({ transparent = true })
+    require("sakuramaiden").setup({ transparent = true })
     vim.cmd.colorscheme("sakuramaiden")
 
   end
