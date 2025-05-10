@@ -7,7 +7,7 @@ local palette = require("palette")
 
 -- Importing any configuration
 -- options set by the user.
-local config = require("jadewisdom")
+local config = require("sakuramaiden")
 
 -- Defining a default
 -- for the transparency
