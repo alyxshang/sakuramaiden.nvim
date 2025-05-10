@@ -9,6 +9,10 @@ local palette = require("palette")
 -- function.
 local engine = require("guizhong")
 
+-- Importing any configuration
+-- options set by the user.
+local config = require("sakuramaiden")
+
 -- Setting the global colorscheme
 -- name.
 vim.g.colors_name = "sakuramaiden"
@@ -20,7 +24,13 @@ vim.api.nvim_create_autocmd(
   {
     pattern = "sakuramaiden",
     callback = function()
-      engine.setHighlights(palette.palette)
+      local transparent = false
+      if config.transparent then
+        transparent = true
+      else
+        transparent = false
+      end
+      engine.setHighlights(palette.palette(transparent).palette)
     end
   }
 )
