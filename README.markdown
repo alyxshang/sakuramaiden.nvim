@@ -34,7 +34,7 @@ return {
   dependencies = {
     {
         'alyxshang/guizhong.nvim',
-        version = "v.0.2.0"
+        version = "v.0.3.0"
     }
   },
   config = function()
