@@ -60,6 +60,11 @@ return {
 
 - Added support for making different UI elements transparent.
 
+### Version 0.3.0
+
+- Radically changed the colorscheme to be easier on the eyes.
+- This release brings more contrast and readability to the colorscheme.
+
 ## NOTE :scroll:
 
 - *Sakuramaiden.nvim :cherry_blossom: :zap:* by *Alyx Shang :black_heart:*.
