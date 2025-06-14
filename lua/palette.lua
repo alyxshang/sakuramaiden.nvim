@@ -27,7 +27,7 @@ function palette(transparentSetting)
     typeColor = "#FF99FF",
     varColor = "#E7BDD5",
     warningColor = "#FF7D8C",
-    warning2 = "#FFE6FF",
+    warning2Color = "#FFE6FF",
     transparent = transparentSetting
   }
 
