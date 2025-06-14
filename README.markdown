@@ -63,7 +63,7 @@ return {
 ### Version 0.3.0
 
 - Radically changed the colorscheme to be easier on the eyes.
-- This release brings more contrast and readability to the colorscheme.
+- Brings more contrast and readability to the colorscheme.
 
 ## NOTE :scroll:
 
